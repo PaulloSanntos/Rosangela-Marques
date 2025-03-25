@@ -1,0 +1,62 @@
+.servico{
+    display: flex;
+    margin: 5em 5em 5em 10em
+    
+}
+
+.servico__texto{
+    align-items: center;
+    font-family: var(--fonte-principal);
+}
+.lista__servicos{
+    padding: 3em 2em 0 2em;
+    list-style-image: url("../images/Ellipse 2.svg");
+    
+}
+.servico__item{
+    padding-top: 1em;
+}
+.servico__item::marker{
+    margin-right: 2em;
+}
+
+.imagem__servico__mobile{
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+
+    .servico{
+        margin: 0;
+        
+    }
+
+
+    .imagem__servico{
+        display: none;
+    }
+
+    .servico__texto{
+        display: block;
+        text-align: justify;
+    }
+
+    .lista__servicos{
+        padding:1.5em;
+    }
+
+    .titulo__pagina{
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagem__servico__mobile{
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+  
+}

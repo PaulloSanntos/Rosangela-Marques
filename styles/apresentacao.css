@@ -1,0 +1,68 @@
+.apresentacao{
+    display:flex ;
+    justify-content: center;
+    gap: 3em;
+    height: 100vh;
+}
+.apresentacao__nome{
+    padding-top: 20vh;
+}
+.apresentacao__pre-titulo{
+    font-size: 20px;
+
+}
+
+.apresentacao__titulo__Ros, .apresentacao__titulo__Mar {
+    font-size: 64px;
+}
+
+.apresentacao__titulo__Mar{
+    padding-left: 1em;
+}
+
+.arvore__mobile{
+    display: none;
+}
+
+.container{
+    display: none;
+}
+
+
+@media screen and (max-width:1000px) {
+    .container{
+        display: block;
+    }
+    .apresentacao{
+       flex-direction: column;
+    
+       gap: 2em;
+       justify-content: flex-start;
+       align-items: center;
+  
+    }
+    .apresentacao__nome{
+        margin: 0;
+        text-align: center;
+    }
+    .arvore__mobile{
+        display: block;
+        justify-content: center;
+        
+    }
+
+    .arvore__desktop{
+        display: none;
+    }
+
+    .apresentacao__nome{
+        padding-top: 5vh;
+    }
+
+    .apresentacao__titulo__Ros, .apresentacao__titulo__Mar {
+        font-size: 48px;
+    }
+
+
+    
+}

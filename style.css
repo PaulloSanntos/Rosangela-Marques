@@ -1,0 +1,22 @@
+@import url("styles/header.css");
+@import url("styles/apresentacao.css");
+@import url("styles/footer.css");
+@import url("styles/sobre.css");
+@import url("styles/servico.css");
+@import url("styles/contato.css");
+
+
+
+:root{
+    --fonte-principal:"Montserrat";
+    --azul:#2E5266;
+    --roxo:#692765;
+    --dourado:#D4A373;
+    --branco:#FFFFFF;
+}
+
+body{
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: #2E5266
+}
